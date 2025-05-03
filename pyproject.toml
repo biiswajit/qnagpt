@@ -1,0 +1,9 @@
+[project]
+name = "qnagpt"
+version = "0.0.0"
+description = "qnagpt is an AI based web app to generate questions from given pdfs"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+]
