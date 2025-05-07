@@ -4,6 +4,7 @@ qnagpt is an api based web app that can generate questions from pdfs
 
 - python [installation guide](https://www.python.org/downloads/)
 - uv [installation guide](https://docs.astral.sh/uv/guides/install-python/)
+- docker [home page](https://www.docker.com/)
 
 ## project setup
 
@@ -23,7 +24,13 @@ qnagpt is an api based web app that can generate questions from pdfs
     uv sync
     ```
 
-3. run the server
+3. run difference dependent services using docker-compose
+
+    ```bash
+    sudo docker compose up
+    ```
+
+4. run the server
 
     ```bash
     uv run fastapi dev
